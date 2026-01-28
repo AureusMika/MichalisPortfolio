@@ -660,6 +660,13 @@ footer::before {
     position: relative;
 }
 
+/* Footer Social-Map Row */
+.social-map-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 /* Utility Classes */
 .centered {
     text-align: center;
