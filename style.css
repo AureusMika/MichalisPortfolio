@@ -373,8 +373,8 @@ input[type="email"]:valid {
     border-color: #D4AF37;
 }
 
-input[type="email"]:invalid {
-    border-color: #ff6b6b;
+input[type="email"]:not(:focus):invalid {
+    border-color: #1f3f66;
 }
 
 button {
